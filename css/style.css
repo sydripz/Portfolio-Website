@@ -46,6 +46,11 @@ img {
   width: 100%;
 }
 
+/*For the main section*/
+main{
+  color: B7B7A4
+}
+
 /*For the links*/
 a {
   color: #023E8A;
