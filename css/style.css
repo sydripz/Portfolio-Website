@@ -46,6 +46,11 @@ img {
   width: 100%;
 }
 
+/*For the hero section*/
+.hero {
+  background-color: #DDBEA9;
+}
+
 /*For the main section*/
 main{
   color: B7B7A4
