@@ -67,6 +67,9 @@ header {
 #hero {
   background-color: #DDBEA9;
 }
+#hero h1 {
+  text-align: center; /* Centers text */
+}
 
 /*For the My Work section*/
 #mywork {
@@ -110,6 +113,11 @@ a:hover,
 a:focus {
   color: #cc6540;
   text-decoration: underline;
+}
+
+/*For adding Center Align*/
+.center {
+  text-align: center;
 }
 
 /*For the Icons*/
