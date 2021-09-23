@@ -61,7 +61,6 @@ header {
   background-color: #DDBEA9;
   text-align: center;
   padding: 10px;
-  margin: 10px
 }
 
 nav > ul {
@@ -99,6 +98,7 @@ nav > ul > li > a {
 /*For the My Work section*/
 #mywork {
   background-color: #FFE8D6;
+  display: inline-block;
 }
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
@@ -148,6 +148,8 @@ a:focus {
 /*For the Icons*/
 .icon {
   width: 05%;
+  list-style-type: none;
+  padding: 0;
 }
 
 /* For buttons/CTA */
@@ -159,6 +161,18 @@ a:focus {
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #994c30; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+
+.projectbutton {
+  display: inline-block;
+  text-align: center;/* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #ADE8F4;
+  color: #ffffff; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #ADE8F4; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 
