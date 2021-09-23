@@ -46,6 +46,13 @@ img {
   width: 100%;
 }
 
+/*For the header section*/
+header {
+  background-color: #DDBEA9;
+  padding: 10px;
+  margin: 10px
+}
+
 /*For the hero section*/
 .hero {
   background-color: #DDBEA9;
