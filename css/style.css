@@ -96,6 +96,11 @@ a:focus {
   text-decoration: underline;
 }
 
+/*For the Icons*/
+.icon {
+  width: 05%;
+}
+
 /* For buttons/CTA */
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
