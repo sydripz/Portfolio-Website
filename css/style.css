@@ -59,13 +59,38 @@ img {
 /*For the header section*/
 header {
   background-color: #DDBEA9;
+  text-align: center;
   padding: 10px;
   margin: 10px
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #4a4a4a;
+}
+
+/*For the logo*/
+.logo {
+  max-width: 250px;
 }
 
 /*For the hero section*/
 #hero {
   background-color: #DDBEA9;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
 }
 #hero h1 {
   text-align: center; /* Centers text */
@@ -94,19 +119,19 @@ main{
 
 /*For the links*/
 a {
-  color: #023E8A;
+  color: #000000;
   text-decoration: none; /* No underlining */
 }
-a:hover {
-  color: #ADE8F4;
+nav > ul > li  > a:hover {
+  color: #000000;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 
-a:visited { /* visited link */
-  color: #03045E;
+nav > ul > li  > a:visited { /* visited link */
+  color: #000000;
 }
-a:active { /* selected link */
-  color: #ADE8F4;
+nav > ul > li  > a:active { /* selected link */
+  color: #000000;
 }
 
 a:hover,
