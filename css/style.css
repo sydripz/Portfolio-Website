@@ -11,6 +11,11 @@ Primary Color (Tan): #DDBEA9
 Secondary Color (Light Beige): #FFE8D6
 */
 
+/*For everything, box model*/
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
@@ -44,6 +49,11 @@ h4 {
 
 img {
   width: 100%;
+}
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
 }
 
 /*For the header section*/
