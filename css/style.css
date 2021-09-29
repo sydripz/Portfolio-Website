@@ -178,10 +178,17 @@ a:focus {
 }
 
 /*For the Icons*/
-.icon {
-  width: 05%;
+.social-icons {
+  width: 100%;
+  text-align: center;
   list-style-type: none;
   padding: 0;
+  padding: 10px 0;
+}
+.social-icons li {
+  display: inline-block;
+  width: 30px;
+  margin: 0 5px
 }
 
 /* For buttons/CTA */
