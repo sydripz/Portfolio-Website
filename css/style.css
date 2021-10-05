@@ -120,7 +120,7 @@ nav > ul > li > a {
 /*For the About Main section*/
 #about {
   background-color: #FFE8D6;
-  display: inline-block;
+  overflow: hidden;
 }
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
@@ -142,6 +142,7 @@ display: inline-block;
 /*For the Contact section*/
 .contact {
   background-color: #DDBEA9;
+  margin-top: 0;
 }
 
 /*For the main section*/
