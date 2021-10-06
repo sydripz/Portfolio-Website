@@ -94,6 +94,9 @@ nav > ul > li > a {
 #hero h1 {
   text-align: center; /* Centers text */
 }
+#hero span {
+  display: block;
+}
 
 /*For the My Work section*/
 #mywork {
@@ -105,6 +108,11 @@ nav > ul > li > a {
 }
 #work .row {
   padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /*For the About Hero section*/
@@ -129,6 +137,11 @@ nav > ul > li > a {
 #work .row {
   padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
 }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
                                       /*Olive*/
 #olivemain {
 background-color: #ADE8F4;
@@ -143,7 +156,7 @@ display: inline-block;
 /*For the Contact section*/
 .contact {
   background-color: #DDBEA9;
-  margin-top: 0;
+  margin-top: 0px;
 }
 
 /*For the main section*/
@@ -238,6 +251,13 @@ a:focus {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+  .col-md-6 {
+    width: 50%;
+    padding: 20px 20px;
+  }
+  [class*="col-"] {
+  float: left;
+}
 }
 
 /* ==============================
