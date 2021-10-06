@@ -109,7 +109,8 @@ nav > ul > li > a {
 
 /*For the About Hero section*/
 #abouthero {
-  background-color:#FFE8D6
+  background-color:#FFE8D6;
+  padding:20px 0;
 }
 
 /*For the About Footer section*/
