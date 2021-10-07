@@ -216,11 +216,7 @@ a:focus {
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #ADE8F4;
-  transition-duration: 0.2s;
-  transition-property: opacity;
-}
-.button:hover {
-  opacity: 0.8;
+  transition: 0.2s opacity;
 }
 
 .projectbutton {
@@ -250,6 +246,33 @@ a:focus {
 .button.contact:hover {
   background-color: #ff7f50;
   color: #ffffff;
+}
+
+/* For animation */
+/* The animation code */
+@keyframes example {
+  0%   {background-color: #FFE6EE;}
+  25%  {background-color: #FFDBE9;}
+  50%  {background-color: #ffc5cd;}
+  100% {background-color: #FFB6C1;}
+}
+
+/* The element to apply the animation to */
+.indexfooter {
+    top:-100%; right:-100%; left:-100%; bottom:-100%;
+    margin:auto;
+    z-index:10;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  border-radius: 20px;
+  background: #FFE6EE;
+  padding: 20px;
+  width: 300px;
+  height: 50px;
 }
 
 /* ==============================
