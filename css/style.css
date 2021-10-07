@@ -275,6 +275,25 @@ a:focus {
   height: 50px;
 }
 
+/* Hobbies animation tests */
+.hobby{
+    animation-name: hobby;
+    animation-duration: 15.5s;
+    /* Things added */
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    display: inline-block;
+    /* <--- */
+}
+@keyframes hobby {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
