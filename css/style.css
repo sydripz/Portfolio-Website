@@ -81,7 +81,8 @@ nav > ul > li > a {
 
 /*For the logo*/
 .logo {
-  max-width: 250px;
+  max-width: 50%;
+ height: auto;
 }
 
 /*For the hero section*/
