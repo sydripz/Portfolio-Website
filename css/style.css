@@ -248,6 +248,10 @@ a:focus {
   color: #ffffff;
 }
 
+footer {
+  padding-bottom: 30px;
+}
+
 /* For animation */
 /* The animation code */
 @keyframes example {
@@ -259,11 +263,8 @@ a:focus {
 
 /* The element to apply the animation to */
 .indexfooter {
-    top:-100%; right:-100%; left:-100%; bottom:-100%;
     margin:auto;
     z-index:10;
-  width: 100px;
-  height: 100px;
   background-color: red;
   animation-name: example;
   animation-duration: 10s;
@@ -272,7 +273,10 @@ a:focus {
   background: #FFE6EE;
   padding: 20px;
   width: 300px;
-  height: 50px;
+  height: 65px;
+}
+.indexfooter p {
+  margin-top: 0;
 }
 
 /* Hobbies animation tests */
