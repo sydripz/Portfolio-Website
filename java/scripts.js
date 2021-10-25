@@ -4,3 +4,24 @@
   crossorigin="anonymous"></script>
 
 console.log("Welcome to my Portfolio Website! Stay & look a while!")
+
+function menuToggle() {
+  var x = document.getElementById('myNavtoggle');
+  if (x.className === 'navtoggle') {
+    x.className += ' responsive';
+  } else {
+    x.className = 'navtoggle';
+  }
+}
+
+nav > ul > li {
+  display: inline-block;
+  min-width: 641px;
+}
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;}
+
+  .navtoggle li:last-child {
+    display: none;
+  }

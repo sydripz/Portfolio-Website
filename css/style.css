@@ -59,8 +59,23 @@ img {
 /*For the header section*/
 header {
   background-color: #DDBEA9;
-  text-align: center;
   padding: 10px;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
 }
 
 nav > ul {
@@ -68,9 +83,7 @@ nav > ul {
   padding: 0;
 }
 
-nav > ul > li {
-  display: inline-block;
-}
+
 
 nav > ul > li > a {
   padding: 0 15px;
@@ -84,6 +97,10 @@ nav > ul > li > a {
   max-width: 150px;
   min-width: 641px;
  height: auto;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
 }
 
 /*For the hero section*/
