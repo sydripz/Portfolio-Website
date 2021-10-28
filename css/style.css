@@ -120,6 +120,9 @@ nav > ul > li > a {
   display: block;
 }
 
+#navitems li {
+  display: inline;
+}
 /*For the My Work section*/
 #mywork {
   background-color: #FFE8D6;
@@ -167,7 +170,6 @@ nav > ul > li > a {
                                       /*Olive*/
 #olivemain {
 background-color: #ADE8F4;
-display: inline-block;
 }
 
 #olivefooter {
@@ -333,8 +335,9 @@ Medium devices (640px and larger)
   }
 
   nav > ul > li {
+    width: 100%;
     display: inline-block;
-    min-width: 641px;
+    text-align: center;
   }
 
   .navtoggle li:not(:last-child) {
