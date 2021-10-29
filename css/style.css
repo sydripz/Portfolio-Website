@@ -27,7 +27,7 @@ body {
 
 h1, h2, h3, h4 {
   line-height: 1.4;
-  margin-top:0
+    margin-top:0
 }
 h1 {
   font-size: 2.75em;
@@ -88,6 +88,7 @@ header {
 nav > ul {
   list-style-type: none;
   padding: 0;
+  text-align: center;
 }
 
 
@@ -128,6 +129,12 @@ nav > ul > li > a {
   background-color: #FFE8D6;
   overflow: hidden;
 }
+
+.myworktitle {
+  text-align: center;
+  margin-top:15px;
+}
+
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
@@ -335,7 +342,6 @@ Medium devices (640px and larger)
   }
 
   nav > ul > li {
-    width: 100%;
     display: inline-block;
     text-align: center;
   }
