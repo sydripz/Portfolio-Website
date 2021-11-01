@@ -60,6 +60,7 @@ img {
   margin:0 auto;
 }
 
+
 /*For the header section*/
 header {
   background-color: #DDBEA9;
@@ -151,7 +152,7 @@ nav > ul > li > a {
 /*For the About Hero section*/
 #abouthero {
   background-color:#FFE8D6;
-  padding:20px 0;
+  padding: 20px 0;
 }
 
 /*For the About Footer section*/
@@ -181,7 +182,7 @@ background-color: #FFFFFF;
 }
                                       /*Olive*/
 #olivemain {
-background-color: #ADE8F4;
+background-color: #FFFFFF;
 }
 
 #olivefooter {
