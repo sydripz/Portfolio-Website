@@ -175,6 +175,10 @@ nav > ul > li > a {
   clear: both;
   display: table;
 }
+                                      /*ClubCorp*/
+#clubcorpmain {
+background-color: #FFFFFF;
+}
                                       /*Olive*/
 #olivemain {
 background-color: #ADE8F4;
